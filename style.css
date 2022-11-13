@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+  background: #041E44;
+  margin: 0;
+  color: #fff;
+  font-family: Poppins !important;
+  overflow-x: hidden;
+}
+.light-mode {
+  background: #fff;
+  color: #333;
+  
+  
+}
+h1, h2, h3, p{
+  margin: 0 0 0.5rem;
+}
+h1{
+font-size: 24px !important;
+font-weight: 500;
+line-height: 36px;
+
+}
+h2#text{
+  font-weight: 700;
+font-size: 42px;
+line-height: 63px;
+  background: linear-gradient(182.78deg, #FFBDA0 2.32%, #FF6CD6 127.21%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  background-clip: text;
+text-fill-color: transparent;
+}
+.Card h3, .Card p{
+  margin-bottom: 0.5rem;
+}
+
+.Button a{
+  background: linear-gradient(90.55deg, #256BF4 -13.39%, #3AC1DE 99.74%);
+padding: 0.75rem 3rem;
+  border-radius: 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+	font-size: 1rem;
+}
+.Button a:hover{
+  background: linear-gradient(180deg, #FF7686 0%, #D72F93 100%)
+}
+.Button{
+  margin-top: 3rem;
+}
+.ContainerSocmed img{
+  width: 64px;
+}
+.ItemSocmed{
+  // background: rgba(255, 255, 255, 0.1);
+  background: rgba(120, 168, 238, 0.2);
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+}
+.switch{
+  margin: auto;
+  text-align: center;
+  position: sticky;
+  bottom: 2rem;
+}
+.switch button{
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  background: #fff;
+  border-radius: 100px;
+  border: 2px solid #FF7686;
+}
+
+// .BgHero{
+//   background: #013D76;
+//   filter: blur(364px);
+// }
+.HeroLeft{
+  margin: auto 0;
+}
+.container-slick{
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+}
+.Card:hover{
+ background: linear-gradient(180deg, #FF7686 0%, #D72F93 100%);
+  transform: scale(1.2);
+  border-radius: 0.75rem;
+}
+.Card{
+  // background: rgba(120, 168, 238, 0.2);
+  background: #3E6296;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  color: #fff !important;
+}
+.Card img{
+  margin-bottom: 3rem;
+  width: 48px;
+}
+@media (min-width: 1025px){
+  .HeadingInterest{
+    width: 50%;
+  margin-top: 8rem;
+  }
+  .container-slick{
+     padding: 3rem;
+  }
+  .Preview .Button{
+    left: 19%;
+  }
+  .InterestGrid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  img.img1{
+  margin-left: 1.5rem;
+}
+  .design, .code{
+    margin-top: 6rem;
+  }
+  .Animation{
+    width: 550px;
+  }
+  .BgHero{
+    padding: 3rem 0;
+    height: 733px;
+  }
+  .Hero{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .ContainerSocmed{
+    margin-top: 6rem;
+  }
+  .ContainerSocmed h2{
+    text-align:center;
+    margin-bottom: 2rem;
+  }
+  .ContentSocmed{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  #music{
+    position: absolute;
+    top: 23rem;
+    right: 12%;
+  }
+  .Hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .Card h3{
+  min-height: 64px;
+}
+  .ContainerWork{
+    margin-top: -13rem;
+  }
+}
+@media (max-width: 1024px){
+	.page-center{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+  p{
+    font-size: 0.875rem;
+  }
+ 
+  img.img1{
+    margin-left: 3rem;
+  }
+  .Preview .Button{
+    left: 25%;
+  }
+  .code, .design, .ContainerSocmed{
+    margin-top: 5rem;
+  }
+  .ContainerSocmed h2{
+    margin-bottom: 1rem;
+  }
+  .ContentSocmed{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .ItemSocmed{
+    text-align: center;
+  }
+  .ItemSocmed .Button a{
+    padding: 0.75rem 1rem !important;
+    font-size: 0.875rem;
+  }
+  #music{
+    display: none;
+  }
+  .HeroLeft{
+    margin-top: 3rem;
+  }
+  .InterestGrid{
+    display: grid;
+    gap: 1.25rem;
+  }
+  h1{
+    font-size: 1rem;
+    margin: 0;
+  }
+  h2, h2#text{
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  .HeadingInterest{
+    width: 100%;
+  }
+  .container-slick{
+     padding: 1rem;
+  }
+  
+}
+#text::after{
+  content: ' ';
+  animation: textrotate 3s linear infinite;
+  -webkit-animation: textrotate 3s linear infinite;
+}
+@keyframes textrotate{
+  0%{
+    content: 'User Interface Designer';
+  }
+  
+  100%{
+    content: 'Front-End Developer';
+  }
+}
+
+.HeadingInterest{
+  display: flex;
+  margin: auto;
+  gap: 1.5rem;
+  
+}
+.Preview{
+  position: relative;
+  margin-top: 3rem;
+}
+.ImagePreview{
+  background: #fbfbfb;
+  width: auto;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+}
+
+img.img2{
+  position: absolute;
+  // left: 2.5rem;
+}
+.Author img{
+  position: absolute;
+  top: 62%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.TitlePreview{
+  // background: #1E4D85;
+  background: rgba(120, 168, 238, 0.2);
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+.TitlePreview h3{
+  padding: 2.5rem 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.Preview .Button{
+  position: absolute;
+  bottom: -4%;
+}
+
+
+img.img1 {
+  animation: moveInLeft 3s linear infinite;
+}
+
+img.img2 {
+    animation: moveInRight 3s linear infinite;
+}
+
+@keyframes moveInLeft {
+    0%,
+    100% {
+        transform: translate(0px, -20px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes moveInRight {
+    0%,
+    100% {
+        transform: translate(0px, 20px);
+    }
+
+    50% {
+        transform: translate(0px, 0);
+    }
+
+}
+
+
+/* dark theme  */
